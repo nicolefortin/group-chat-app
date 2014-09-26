@@ -1,0 +1,204 @@
+<style>
+
+#sizing { font-size: 16px;}
+
+body {
+    background-color: white;
+}
+
+h1 {
+    font-size: 2em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: "Lato", sans-serif;
+}
+
+h2 {
+    font-size: 1.5em;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-family: "Lato", sans-serif;
+    color: rgba(46, 204, 113,.50);
+}
+header {
+    text-align:left;
+    height: 10%;
+    width:100%;
+    line-height:15px;
+    padding: 3% 0% 0% 5%
+}
+#leftpane {
+    background-color: rgba(189, 195, 199,.25);
+    color: rgb(108,122,137);
+    font-size: .75em;
+    font-family: "Lato", sans-serif;
+    width: 55%;
+    height: 400px;
+    float: left;
+    margin:  3%;
+    border: solid 2px rgba(189, 195, 199,.25);
+    border-radius: 10px;
+    overflow:scroll;
+
+}
+#rightpane {
+    line-height: 15px;
+    font-family: "Lato", sans-serif;
+    width: 15%;
+    float: right;
+    font-size: .9em;
+    color: rgba(127, 140, 141,.7);
+    letter-spacing: 1px;
+    margin: 5% 0% 0% 0%;
+    border-radius: 25px;
+}
+#bottompane {
+    width: 100%;
+    height: 100px;
+    color:#000000;
+    clear:both;
+    padding: 0% 0% 0% 5%;
+}
+
+.chatsubmit {
+    background-color: rgba(189, 195, 199,.25);
+    height: 300px;
+    width: 350px;
+    color:black;
+    text-align:center;
+    border-radius: 25px;
+    border: solid 2px rgba(189, 195, 199,.25);
+    margin: 5%;
+    padding: 0% 0% 0% 15%;
+    text-align: center;
+}
+
+.chatmessage {
+    margin-top: 200px;
+    margin-right: 20px;
+    text-align: right;
+}
+
+.submitbutton {
+    background-color: rgba(46, 204, 113,.4);
+    height: 40px;
+    width: 80px;
+    color:rgb(46, 204, 113);
+    text-transform: uppercase;
+    border-radius: 25px;
+    right-margin: 55%;
+    font-weight: bold;
+    font-size: 1em;
+    letter-spacing: 1.5px;
+    border: solid 2px rgba(46, 204, 113,.5);
+}
+.submittext {
+  margin-left:19px;
+  margin-top: 10px;
+}
+.leftchat {
+    background-color: rgba(155, 89, 182,.3);
+    font-family: "Lato", sans-serif;
+    color:black;
+    float: left;
+    padding: 0% % 0% 0% 0%;
+    margin: 2%;
+    width:75%;
+    border-radius: 25px;
+    border: solid 2px white;
+
+}
+.leftchat .avatar {
+    float: left;
+    padding: 0% 5% 0% 0%;
+}
+.leftchat .avatar img {
+    height: 40px;
+    width: auto;
+    vertical-align: middle;
+    opacity: .8;
+}
+.leftchat .message {
+    margin-left: 50px;
+    margin-top: 5px;
+}
+
+.rightchat .message {
+    margin-right: 50px;
+    margin-top: 5px;
+}
+.rightchat {
+    background-color: rgba(46, 204, 113,.4);
+    font-family: "Lato", sans-serif;
+    color:black;
+    float: right;
+    padding: 0% % 0% 0% 0%;
+    width:75%;
+    text-align: right;
+    border-radius: 25px;
+    border: solid 2px white;
+}
+.rightchat img{
+    height: 40px;
+    width: auto;
+    float: right;
+    vertical-align: middle;
+    opacity: .8;
+}
+.rightchat .avatar {
+    float: right;
+}
+.rightchat .avatar img {
+    height: 40px;
+    width: auto;
+    vertical-align: middle;
+}
+.rightchat .message {
+    margin-right: 50px;
+}
+#usericon img {
+    height: 50px;
+    width: auto;
+    float: left;
+    opacity: .7;
+    padding: 0% 0% 0% 1%;
+}
+.imagemessage img{
+    width: auto;
+    height: 200px;
+    left: 100px;
+    vertical-align: middle;
+}
+
+.searchbutton {
+    width: 200px;
+    height: 40px;
+    margin-right: 10%;
+    float: right;
+    background-color: rgba(189, 195, 199,.25);
+    border-radius: 5%;
+    text-transform: uppercase;
+    font-family: "Lato", sans-serif;
+    font-size: .85em;
+    letter-spacing: 1.5px;
+    border: solid 2px rgba(189, 195, 199,.25);
+}
+
+.searchicon img {
+    width: 30px;
+    height: 30px;
+    margin: 3%;
+    vertical-align: middle;
+}
+
+.whosonline {
+    letter-spacing: 1.2px;
+    font-size: 1em;
+    font-family: "Lato", sans-serif;
+    text-transform: uppercase;
+    width: 150px;
+    float: left;
+    margin-top: 1%;
+}
+
+</style>
